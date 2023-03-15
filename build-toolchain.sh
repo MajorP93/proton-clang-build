@@ -17,7 +17,8 @@ msg "Building LLVM..."
 	--targets "ARM;AArch64;X86" \
 	"$repo_flag" \
 	--pgo kernel-defconfig \
-	--lto full
+	--lto full \
+	-D LLVM_PARALLEL_LINK_JOBS=4
 
 # Build binutils
 msg "Building binutils..."
