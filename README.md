@@ -36,6 +36,7 @@ These scripts have been tested in a Docker image of the following distributions 
               lld \
               make \
               ninja-build \
+              patchelf \
               python3-dev \
               texinfo \
               u-boot-tools \
@@ -61,6 +62,7 @@ These scripts have been tested in a Docker image of the following distributions 
               make \
               ninja-build \
               openssl-devel \
+              patchelf \
               python3 \
               texinfo-tex \
               uboot-tools \
@@ -85,6 +87,7 @@ These scripts have been tested in a Docker image of the following distributions 
             llvm \
             ninja \
             openssl \
+            patchelf \
             python3 \
             uboot-tools
   ```
@@ -100,6 +103,7 @@ These scripts have been tested in a Docker image of the following distributions 
                    devpkg-openssl \
                    git \
                    python3-basic \
+                   patchelf \
                    which
   ```
 
